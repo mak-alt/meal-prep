@@ -1,0 +1,488 @@
+@media (max-width: 1400px) {
+    .meals-header__menu li {
+        min-width: initial;
+        padding: 0 10px;
+    }
+
+    .order-menu-header {
+        overflow-x: auto;
+    }
+
+    .meals-header__menu li a {
+        font-size: 14px;
+        line-height: 19px;
+        white-space: nowrap;
+    }
+
+    .order-menu-heade__link {
+        font-size: 14px;
+        white-space: nowrap;
+        line-height: 31px;
+    }
+
+    .meals-header__menu.show_icons li a img {
+        max-width: 16px;
+        max-height: 16px;
+        margin-right: 5px;
+    }
+
+    .weekly-menu__info-item {
+        font-size: 12px;
+    }
+
+    .weekly-menu__info-item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .weekly-menu__info-item:after {
+        right: -6px;
+    }
+
+    .weekly-menu__info {
+        flex-wrap: wrap;
+    }
+
+    .entry-item__btn-wrpr .entry-item__amount_picker .btn {
+        padding: 0;
+    }
+
+    .order-menu-heade__item {
+        padding: 0 15px;
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+    .entry-item__btn-wrpr .btn_transparent,
+    .entry-item__btn-wrpr .btn-green {
+        padding: 6px 15px;
+    }
+
+    .entry_item_food_img_wrapper,
+    .entry-item__food-icon-wrapper {
+        width: 56px;
+        height: 56px;
+        min-width: 56px;
+        min-height: 56px;
+        margin-right: 8px;
+        border-radius: 16px;
+    }
+
+    .entry-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 12px;
+    }
+
+    .entry-item .weekly-menu__info {
+        display: none;
+    }
+
+    .entry-item__btn-wrpr {
+        align-items: center;
+        margin-left: 64px;
+    }
+
+    .entry-item__food-option img {
+        display: none;
+    }
+
+    .entry-item__food-option {
+        width: 110%;
+    }
+
+    .box_part_item {
+        width: 100%;
+        padding: 0;
+    }
+
+    .box_part_wrapper {
+        margin: 0 0 20px;
+    }
+
+    .box_part_item + .box_part_item {
+        margin-top: 20px;
+    }
+
+    .entry-item__right {
+        position: initial;
+    }
+
+    .entry-item__price,
+    .entry_price_info {
+        bottom: auto;
+        right: 10px;
+        top: 10px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .module__dashboard .content {
+        padding-left: 0;
+    }
+
+    .content.right-sidebar {
+        padding-right: 0;
+    }
+
+    .sidebar {
+        transform: translateX(-100%);
+        transition: 0.3s all ease-in-out;
+        z-index: 2999;
+        min-height: initial;
+        width: 100%;
+        height: calc(100% - 56px);
+        bottom: 0;
+    }
+
+    .sidebar:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 95%;
+        height: 2px;
+        background-color: #293F94;
+        opacity: 0.08;
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    .sidebar_content_bottom {
+        display: none;
+    }
+
+    .mobile_header {
+        transition: all 0.3s ease;
+    }
+
+    .mobile_header.active .mobile_header_cart_btn {
+        display: none;
+
+    }
+
+    .mobile_header.active {
+        flex-direction: row-reverse;
+    }
+
+    .content_cart.content_cart-fixed {
+        transform: translateX(100%);
+        transition: 0.3s all ease-in-out;
+        z-index: 999;
+        min-height: initial;
+        height: calc(100vh - 56px);
+    }
+
+    .content_cart.content_cart-fixed.active {
+        transform: translateX(0);
+    }
+
+    .mobile_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 56px;
+        padding: 0 8px;
+        background: #FFFFFF;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 100;
+    }
+
+    .md-pt-56 {
+        padding-top: 56px;
+
+    }
+
+    .md-pb-56 {
+        padding-bottom: 56px;
+    }
+
+    .sidebar_header {
+        display: none;
+    }
+
+    .mobile_header_menu,
+    .mobile_header_cart_btn {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .success-order-info.active.hide_on_mob {
+        display: none;
+    }
+
+    .mobile_top_notif {
+        display: block;
+        text-align: center;
+        width: 100%;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: #34BC89;
+        padding: 2px;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    .content_box--padding-small {
+        padding: 16px;
+    }
+
+    .entry-item__btn-wrpr .entry-item__amount_picker .btn {
+        padding: 0;
+    }
+
+    .entry_scroll {
+        height: initial;
+    }
+
+    .order-menu-header {
+        padding: 0 16px;
+    }
+
+    .duplicate_popup_btn {
+        margin-bottom: 8px;
+    }
+
+    .wizard-header.content_header {
+        position: static;
+    }
+
+    .wizard .wizard-header .steps .wizard-step {
+        width: initial;
+        white-space: nowrap;
+    }
+
+    .wizard .wizard-header .steps {
+        overflow-x: auto;
+    }
+
+    .content_main_checkout .content_box {
+        padding: 16px;
+    }
+
+    .card-info {
+        margin-left: 0;
+    }
+
+    .content_header.meals-header {
+        padding: 0;
+    }
+
+    .meals-header__menu li a {
+        min-width: 85px;
+    }
+
+    .content_header.meals-header {
+        position: initial;
+    }
+
+    .content_main {
+        padding-top: 0;
+    }
+
+    .content_box.content_box_cart {
+        padding: 16px;
+        width: 100%;
+    }
+
+    .rewards__points-charth, .poins-table {
+        flex: initial;
+        width: 100%;
+    }
+
+    .rewards__points-charth {
+        margin-top: 30px;
+    }
+
+    .rewards__points-all-info {
+        flex-direction: column;
+    }
+
+
+}
+
+@media (max-width: 767.98px) {
+    .entry-item__title {
+        font-size: 14px;
+        line-height: 19px;
+        padding-right: 35px;
+        padding-bottom: 38px;
+    }
+
+    .entry-item__left {
+        align-items: flex-start;
+    }
+
+    .entry-item__btn-wrpr .entry-item__amount_picker .btn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .entry-item__amount_picker {
+        height: 40px;
+        padding: 5px;
+    }
+
+    .entry-item__btn-wrpr {
+        margin-top: -40px;
+    }
+
+    .order-step__title {
+        display: flex;
+        align-items: center;
+    }
+
+    .order-step__title {
+        font-size: 14px;
+        line-height: 19px;
+        padding-right: 10px;
+    }
+
+    .entry-item__btn-wrpr .btn_transparent,
+    .entry-item__btn-wrpr .btn-green {
+        padding: 6px 10px;
+    }
+
+    .order-step .open-menu__icon {
+        max-height: 18px;
+    }
+
+    .sort-link:last-child {
+        margin: 0 0 0 16px;
+    }
+
+    .order-step__title + span {
+        display: flex;
+        align-items: center;
+    }
+
+    .popup.duplicate_this_meal_popup {
+        max-width: 100%;
+        padding: 16px;
+        border-radius: 0;
+        margin: 0;
+        min-height: 100%;
+    }
+
+    .popup_title {
+        font-size: 24px;
+        line-height: 27px;
+        margin-bottom: 15px;
+    }
+
+    .meals-calculate,
+    .duplicate_meals_list_box .meals-calculate {
+        padding: 16px;
+    }
+
+    .content_main_checkout {
+        flex-direction: column;
+    }
+
+    .content_cart_checkout_btn {
+        padding: 8px 16px;
+        background: #fff;
+        margin-top: 100px;
+    }
+
+    .points-info-block__content {
+        flex-direction: column;
+    }
+
+    .points-info-block__item {
+        flex: 0 0 100%;
+    }
+
+    .points-info-block__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .content_main_checkout .content_box.w-full {
+        padding: 16px;
+    }
+
+    .rewards__points-charth-img {
+        zoom: 0.8;
+    }
+
+    .share-links-block {
+        flex-direction: column;
+    }
+
+    .share-links-block__item {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .table_wrpr {
+        overflow-x: auto;
+    }
+
+    .empty-page {
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .order-panel__right .order-panel__title {
+        font-size: 12px;
+    }
+
+    .sort-link span {
+        font-size: 12px;
+    }
+
+    .sort-link img {
+        max-width: 13px;
+        max-height: 13px;
+    }
+
+    .sort-link {
+        font-size: 12px;
+        color: #3C3C3C;
+    }
+
+    .sort-link span:first-of-type {
+        display: none;
+    }
+
+    .entry-item__food-option {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .md-pb-56 {
+        padding-bottom: 130px;
+    }
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

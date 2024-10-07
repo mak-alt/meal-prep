@@ -1,0 +1,47 @@
+.logo-admin {
+  justify-content: center;
+  padding: 13px 4px;
+}
+
+.logo-admin img {
+  width: 170px;
+}
+
+.sidebar-mini.sidebar-collapse .logo-admin {
+  justify-content: flex-start;
+}
+
+.sidebar-mini.sidebar-collapse .main-sidebar.sidebar-focused,
+.sidebar-mini.sidebar-collapse .main-sidebar:hover {
+  background: white;
+}
+
+.sidebar-mini .logo-admin {
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .sidebar-mini .sidebar-collapse .logo-admin {
+    justify-content: center;
+  }
+
+  .main-sidebar {
+    background: white;
+  }
+
+  .sidebar-mini.sidebar-open .main-sidebar .logo-admin {
+    justify-content: center;
+  }
+
+  .logo-admin {
+    justify-content: flex-start;
+    padding: 13px 4px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .dataTables_wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}

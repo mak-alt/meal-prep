@@ -1,0 +1,404 @@
+@media (max-width: 1199.98px) {
+    .local-partners > .row-custom > .custom-col-2 {
+        flex: 0 0 100%;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .success-order-info.success_order_info_in_content {
+        display: none;
+    }
+
+    .module__dashboard.order-menu-mobile {
+        padding-top: 51px;
+    }
+
+    .content_header {
+        width: 100%;
+    }
+
+    .content_box,
+    .content-wrapper {
+        padding: 80px 65px 16px 65px;
+    }
+
+    .success-order-info {
+        left: 16px;
+        padding: 10px 25px 10px 24px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .btn-close-right-sidebar {
+        display: flex;
+    }
+
+    .content_cart.content_cart-fixed {
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding-top: 0;
+    }
+
+    .content_cart.content_cart-mobile-next-step > .btn_transparent,
+    .content_cart.content_cart-breakfast > .btn_transparent {
+        display: none;
+    }
+
+    .content_cart.content_cart-mobile-next-step .content_cart__title,
+    .content_cart.content_cart-breakfast .content_cart__title {
+        display: none;
+    }
+
+    .content_cart.content_cart-mobile-next-step .order-value {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*.content_cart.content_cart-breakfast .order-value {
+        display: none;
+    }*/
+
+    .content_cart.content_cart-mobile-next-step .order-value li:first-of-type {
+        flex: 0 0 100%;
+    }
+
+    .content_cart.content_cart-mobile-next-step .order-value li {
+        flex: 0 0 49%;
+    }
+
+    .content_cart.content_cart-mobile-next-step .cart_sum {
+        display: none;
+    }
+
+    .wizard-button-group .btn:first-of-type {
+        margin-bottom: 0px;
+    }
+
+    .wizard-button-group {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .wizard-button-group .btn:first-of-type {
+        display: flex;
+    }
+
+    .content_cart .wizard-button-group .btn {
+        flex: 0 0 49%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .wizard-button-group .btn img {
+        display: none;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .content_box.content_box_weekly {
+        padding: 60px 40px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .content-wrapper,
+    .content_box {
+        padding: 80px 25px 25px 25px;
+    }
+
+    .content_box_part_inner {
+        margin-bottom: 24px;
+    }
+
+    .box_part_text_wrapp {
+        padding: 20px 15px;
+    }
+
+    .box_part_text_wrapp.style-2 {
+        flex-wrap: wrap;
+    }
+
+    .box_part_text_contacts:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    .order-menu__title,
+    .order-menu__price-wrapper .price,
+    .order-menu__dropdown-title,
+    .section-title,
+    .order-menu__food-info-head {
+        font-size: 20px;
+    }
+
+    .order-menu__title-links a {
+        font-size: 14px;
+    }
+
+    .order-menu__header {
+        padding: 16px 12px;
+    }
+
+    .order-menu__dropdown .order-menu__header {
+        padding: 0 12px;
+    }
+
+    .oredr-info-contacts-item:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
+    #duplicate-this-meal .close_popup_btn {
+        display: none;
+    }
+
+    #duplicate-this-meal .popup_header {
+        display: none;
+    }
+
+    #duplicate-this-meal .popup {
+        padding-top: 0;
+    }
+
+    #duplicate-this-meal .duplicate_this_meal_popup {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .duplicate_meals_list_box {
+        margin-top: 24px;
+    }
+
+    .btn-close-duplicate-mobile {
+        display: flex;
+    }
+
+    #duplicate-this-meal .popup_btn_wrpr .popup_btn_wrpr_item {
+        width: 100%;
+    }
+
+    #duplicate-this-meal .popup_btn_wrpr .popup_btn_wrpr_item:first-of-type {
+        display: none;
+    }
+
+    #popup-about-product .popup-about-selected-meal__wrapper {
+        flex: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #popup-about-product .popup_btn_wrpr {
+        flex: auto;
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* .module__dashboard .content {
+        padding-bottom: 65px;
+    } */
+    .entry_scroll {
+        max-height: calc(100vh - 320px);
+    }
+    #popup-about-product .popup-about-selected-meal__title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .local-partners .row-custom .custom-col-2 {
+        flex: 0 0 100%;
+        margin-bottom: 16px;
+    }
+    .popup_btn_wrpr .btn span {
+        display: none;
+    }
+    .gallery .row-custom .custom-col-4,
+    .reviews .row-custom .custom-col-3 {
+        flex: 0 1 50%;
+    }
+
+    .search-form {
+        flex-direction: column;
+    }
+
+    .search-form .input-wrapper {
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+    .search-form .input-wrapper + .btn {
+        margin-top: 15px;
+    }
+
+    .location-info-buttons a {
+        min-width: auto;
+    }
+
+    .weekly-menu .weekly-menu__title {
+        font-size: 14px;
+    }
+
+    .weekly-menu .weekly-menu__info {
+        order: 3;
+    }
+
+    .weekly-menu .weekly-menu__text p {
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .content_box.content_box_weekly {
+        padding: 25px 16px;
+    }
+
+    .weekly-menu__img {
+        flex: 0 0 56px;
+        height: 56px;
+        margin-right: 8px;
+        border-radius: 16px;
+    }
+
+    .weekly-menu__content {
+        padding-top: 2px;
+    }
+
+    .order-menu__title,
+    .order-menu__price-wrapper .price,
+    .order-menu__dropdown-title,
+    .order-menu__dropdown .order-menu__price-wrapper .price,
+    .oredr-info-contacts-item,
+    .order-menu__food-info-head {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .loc-decatur p,
+    .loc-brookhaven p {
+        margin-bottom: 24px;
+    }
+
+    .order-menu__price-wrapper .points {
+        display: none;
+    }
+
+    .order-menu__icon {
+        flex: 0 0 24px;
+        width: 24px;
+        height: 24px;
+        margin-left: 12px;
+    }
+
+    .order-menu__icon:after {
+        left: -11px;
+    }
+
+    .order-menu__header .order-menu__header-wrapper {
+        padding: 20px 0;
+    }
+
+    .order-menu__food-info {
+        padding: 0 24px;
+    }
+
+    .oredr-info-text {
+        font-size: 10px;
+    }
+
+    .oredr-info-contacts-item h3 {
+        margin-bottom: 3px;
+    }
+
+    .order-menu__food-info-list div {
+        font-size: 12px;
+    }
+
+    .order-menu__food-info-list div > span {
+        display: none;
+    }
+
+    .order-menu__food-info-head .price {
+        display: none;
+    }
+
+    .weekly-menu__info-item:first-of-type span {
+        margin-right: 3px;
+    }
+
+    .order-menu__price-wrapper {
+        padding: 0 10px;
+    }
+
+    .order-menu__title-links {
+        font-size: 12px;
+        display: none;
+    }
+
+    .order-menu__title-links a {
+        font-size: 12px;
+    }
+
+    .order-menu__title-links.order-menu__title-links-mobile {
+        display: block;
+    }
+
+    #duplicate-this-meal {
+        padding: 0px;
+    }
+
+    .search-form.res .res-text {
+        position: static;
+        margin-top: 16px;
+    }
+
+    .popup-delete-entry__description {
+        font-size: 14px;
+    }
+
+    .popup-about-selected-meal__titleб
+    .popup-delete-entry__title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .popup-about-selected-meal__description {
+        padding: 24px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .popup-about-selected-meal__title {
+        margin-bottom: 0;
+        font-size: 24px;
+        text-align: center;
+    }
+    #duplicate-meal-step-selection .popup_header{
+        display: none;
+    }
+    #duplicate-meal-step-selection .popup.duplicate_this_meal_popup {
+        padding: 0 16px 16px 16px;
+    }
+}
+
+@media (max-width: 410px) {
+    .search-form .input-wrapper + .btn {
+        margin-top: 35px;
+    }
+}
+
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}

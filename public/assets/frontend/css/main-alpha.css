@@ -1,0 +1,215 @@
+.scroll_to_top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    opacity: 0;
+    visibility: hidden;
+    background: #F8F8F8 url(../img/to_top.svg) no-repeat center;
+    background-size: 70%;
+    transition: all 0.15s ease-in-out;
+    z-index: 10;
+}
+
+.scroll_to_top.active {
+    opacity: 0.6;
+    visibility: visible;
+}
+
+.scroll_to_top.active:hover {
+    opacity: 1;
+}
+
+.meals-header__menu.show_icons li a img {
+    display: block;
+}
+
+.content_cart_bottom .btn.btn_next_step {
+    background: #34BC89;
+    color: #FFFFFF;
+}
+
+.content_cart_bottom .btn.btn_next_step img {
+    filter: brightness(0) invert(1);
+}
+
+.entry_item_food_img_wrapper {
+    border-radius: 19px;
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    min-height: 80px;
+    overflow: hidden;
+    margin-right: 16px;
+}
+
+.entry_item_food_img_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.order-step.warning {
+    border: 2px solid #FFCE20;
+}
+
+.entry-item {
+    position: relative;
+}
+
+.entry_price_info {
+    position: absolute;
+    right: 16px;
+    bottom: 6px;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 16px;
+    color: #A4B6C0;
+    display: block;
+}
+
+.content_box_part {
+    position: relative;
+}
+
+.meals-header__wrapper.ovrflw_hdn {
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.module__dashboard .content.right-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.module__dashboard .content.right-sidebar .content_box--padding-small.have_notification {
+    flex: 1;
+    position: relative;
+}
+
+.content_box--order-menu.have_notification .content_box_part {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.add-ons__item-img-wrapper.image_full_size {
+    display: block;
+    overflow: hidden;
+    width: 32px;
+}
+
+.add-ons__item-img-wrapper.image_full_size img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content_cart.content_cart-fixed {
+    overflow-y: scroll;
+    max-height: 100vh;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.meals-header__wrapper.ovrflw_hdn::-webkit-scrollbar,
+.content_cart.content_cart-fixed::-webkit-scrollbar {
+    display: none;
+}
+
+.portions_sizes_box .btn {
+    text-transform: initial;
+}
+
+.popup.duplicate_this_meal_popup {
+    max-width: 564px;
+}
+
+.mb_24 {
+    margin-bottom: 24px;
+}
+
+.duplicate_meal_item {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.duplicate_meal_item span {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(164, 182, 192, 0.18);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.144706px;
+    color: #3C3C3C;
+    padding: 16px;
+    display: block;
+    width: 100%;
+}
+
+.duplicate_meal_item input {
+    display: none;
+}
+
+.duplicate_meal_item input:checked ~ span {
+    background: #34BC89;
+    color: #fff;
+}
+
+.duplicate_meal_item + .duplicate_meal_item {
+    margin-top: 8px;
+}
+
+.duplicate_meals_list_box .meals-calculate {
+    padding: 32px 24px 24px 24px;
+}
+
+.duplicate_meals_list_box .meals-calculate .btn.btn_transparent {
+    display: block;
+    width: 100%;
+    margin-top: 16px;
+    padding: 11px 10px;
+}
+
+.duplicate_meals_list_box:not(.active) {
+    display: none;
+}
+
+.weekly-menu__info-item {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.19px;
+    color: #3C3C3C;
+}
+
+.mobile_header {
+    display: none;
+}
+
+.mobile_header_cart_btn {
+    filter: brightness(0);
+}
+
+.mobile_top_notif {
+    display: none;
+}
+
+.entry-item__amount_picker .btn_disabled img {
+    filter: invert(1) opacity(0.22);
+}
+
+.entry-item__food-icon-wrapper {
+    min-width: 80px;
+    min-height: 80px;
+}

@@ -1,0 +1,92 @@
+.pagination {
+    margin-top: 10px;
+}
+
+.block_page {
+    margin-bottom: 25px;
+}
+
+.delete-file-inbox-icon {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.remove-address, .remove-timing, .remove-price {
+    display: block;
+}
+
+.image_block img{
+    margin-bottom: 10px;
+    max-height: 250px;
+    width: 250px;
+    display: block;
+}
+.input_image_block {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.main_image {
+    display: block;
+}
+
+.table-responsive > .table.table-bordered thead > tr > td,
+.table-responsive > .table.table-bordered thead > tr > th {
+    border-top-width: 1px;
+}
+
+.discount_title {
+    margin-right: 15px;
+    font-weight: bold;
+    padding-bottom: 7px;
+    display: inline-block;
+}
+
+.btn-inactive {
+    cursor: not-allowed!important;
+    pointer-events: none!important;
+    background-color: grey!important;
+    border-color: grey!important;
+}
+
+.zip_code_block>div {
+    margin-bottom: 0.2rem;
+}
+
+.add_zip_code_button {
+    margin-top: 1em;
+}
+
+.card-body .table.table-striped .select2-container {
+    width: 100% !important;
+    min-width: 200px;
+}
+
+.card-body .table.table-striped .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.card-body .table.table-striped .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    width: max-content;
+    max-width: 70vw;
+}
+.max-w-200 {
+    max-width: 200px;
+}
+.edit_menu_table tr td:first-child {
+    width: 100px;
+    min-width: 100px;
+}
+
+.table thead tr th, .table tbody tr td :not(.no-white-space) {
+    white-space: nowrap!important;
+}
+
+.custom-switch .custom-control-label::before { cursor: pointer; }
+.custom-switch .custom-control-label::after { cursor: pointer; }
+.custom-switch .custom-control-input:disabled ~ .custom-control-label::before { cursor: not-allowed; }
+.custom-switch .custom-control-input:disabled ~ .custom-control-label::after { cursor: not-allowed; }

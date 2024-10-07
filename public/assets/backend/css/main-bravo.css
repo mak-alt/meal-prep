@@ -1,0 +1,41 @@
+.logo-admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:13px 5px ;
+    border-bottom: 1px solid #dadadf;
+}
+
+.form-group_inner {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
+
+.form-group_inner .select2-container, .form-group_inner .form-control {
+    flex: 0 0 75%;
+    width: 75% !important;
+    margin-right: 10px;
+}
+
+.action-group {
+    display: flex;
+    align-items: center;
+}
+.action-group .form-control {
+    flex: 0 0 150px;
+    margin-right: 10px;
+}
+
+.table thead tr th,
+.table tbody tr td {
+    white-space: nowrap;
+}
+
+.form-group.editing {
+    display: none;
+}
+
+.nav.nav-treeview {
+    padding: 0 0 0 10px;
+}

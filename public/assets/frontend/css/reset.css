@@ -1,0 +1,257 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.meals-block  {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-top: -2px;
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transition: 0.15s;
+}
+
+a:hover, button:hover {
+    transition: 0.15s;
+}
+
+button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transition: 0.15s;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+input[type=button] {
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    min-width: 320px;
+    position: relative;
+    position: fixed;
+    overflow: hidden;
+}
+
+html {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+}
+
+/* main {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+} */
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+video {
+    vertical-align: bottom;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+svg {
+    display: block;
+    transition: 00.15s;
+}
+
+svg path {
+    transition: 00.15s;
+}
+
+fieldset {
+    padding: 0;
+    border: none;
+}
+
+textarea {
+    overflow: auto;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn,
+input,
+textarea,
+button,
+.slick-slide {
+    outline: none;
+    border: none;
+}
+
+.slick-slide:focus {
+    outline: none
+}
+
+.slick-prev {
+    z-index: 9;
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-slide {
+    margin: 0 10px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #3C3C3C;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #3C3C3C;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: #3C3C3C;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #3C3C3C;
+}
+
+.btn {
+    white-space: nowrap
+}
+
+.same_height > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.same_height .item_h {
+    display: flex;
+    height: 100%;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper_main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.wrapper_main .content {
+    flex: auto;
+}
+
+.safari input, .safari textarea {
+    display: block;
+    -webkit-appearance: none;
+    width: 100%;
+}
+
+.content {
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 400px) {
+    .mobile-only{
+        display: none;
+    }
+}
+
+.row-checkout{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+}
+
+.input-wrapper80 {
+    position: relative;
+    width: 75%;
+}
+
+.button-coupon{
+    height: fit-content !important;
+    padding: 12px 10px !important;
+}
+
+.footer-div{
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.scroll450{
+    overflow-y: scroll;
+    max-height: 450px;
+}
+
+.max_w48{
+    max-width: 48px;
+}
+
+.password-reset{
+    align-items: center !important;
+    justify-content: center;
+}
